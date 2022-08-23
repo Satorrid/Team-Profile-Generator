@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/Satorrid/Team-Profile-Generator#readme",
   "dependencies": {
     "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
   }
 }
